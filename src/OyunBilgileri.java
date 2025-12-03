@@ -1,4 +1,4 @@
-public class GameBenchmark {
+public class OyunBilgileri {
 
     String oyunAdi;
     String yapimciFirma;
@@ -13,7 +13,7 @@ public class GameBenchmark {
     String windowsSurumu;
     String depolamaTuru;
 
-    public GameBenchmark(String oyunAdi, String yapimciFirma, String oyunTuru, int metaPuani, int cikisYili, int ramGereksinimi, String islemciGereksinimi, String ekranKartiGereksinimi, int depolamaGereksinimi, String windowsSurumu, String depolamaTuru) {
+    public OyunBilgileri(String oyunAdi, String yapimciFirma, String oyunTuru, int metaPuani, int cikisYili, int ramGereksinimi, String islemciGereksinimi, String ekranKartiGereksinimi, int depolamaGereksinimi, String windowsSurumu, String depolamaTuru) {
 
         this.oyunAdi = oyunAdi;
         this.yapimciFirma = yapimciFirma;
@@ -39,10 +39,10 @@ public class GameBenchmark {
         System.out.println();
 
         System.out.println("OYUNUN SİSTEM GEREKSİNİMLERİ\n");
-        System.out.println("Önerilen sistem 'RAM' : " + ramGereksinimi);
+        System.out.println("Önerilen sistem 'RAM' : " + ramGereksinimi + " GB");
         System.out.println("Önerilen sistem 'İŞLEMCİ' : " + islemciGereksinimi);
         System.out.println("Önerilen sistem 'EKRAN KARTI' : " + ekranKartiGereksinimi);
-        System.out.println("Önerilen sistem 'DEPOLAMA ALANI' : " + depolamaGereksinimi);
+        System.out.println("Önerilen sistem 'DEPOLAMA ALANI' : " + depolamaGereksinimi + " GB");
         System.out.println("Önerilen sistem 'DEPOLAMA TÜRÜ' : " + depolamaTuru);
         System.out.println("Önerilen sistem 'İŞLETİMİ' : " + windowsSurumu);
 
