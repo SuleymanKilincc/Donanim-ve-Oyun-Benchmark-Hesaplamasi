@@ -29,7 +29,7 @@ public class GameBenchmark {
         this.depolamaTuru = depolamaTuru;
     }
 
-    public void testiBaslat(EkranKartlariVeriMerkezi gelenKart) {
+    public void gereksinimleriGoster() {
 
         System.out.println("OYUN BİLGİLERİ\n");
         System.out.println("Seçtiğiniz oyun : " + oyunAdi);
@@ -45,22 +45,7 @@ public class GameBenchmark {
         System.out.println("Önerilen sistem 'DEPOLAMA ALANI' : " + depolamaGereksinimi);
         System.out.println("Önerilen sistem 'DEPOLAMA TÜRÜ' : " + depolamaTuru);
         System.out.println("Önerilen sistem 'İŞLETİMİ' : " + windowsSurumu);
-        System.out.println();
 
-        System.out.println("BENCHMARK TESTİ\n");
-        System.out.println("Ekran kartınız : " + gelenKart.model);
-        if (gelenKart.performansDuzeyi >= 55) {
-            System.out.println("Bu oyun için akıcı çözünürlük : 2K");
-            System.out.println("Ortalama 'FPS' : 93");
-        } else if (gelenKart.performansDuzeyi >= 50) {
-            System.out.println("Bu oyun için akıcı çözünürlük : 2K");
-            System.out.println("Ortalama 'FPS' : 72");
-        } else if (gelenKart.performansDuzeyi >= 45) {
-            System.out.println("Bu oyun için akıcı çözünürlük : 1K");
-            System.out.println("Ortalama 'FPS' : 80");
-        } else {
-            System.out.println("Bu oyun için akıcı çözünürlük : 1K");
-            System.out.println("Ortalama 'FPS' : 61");
-        }
+
     }
 }
